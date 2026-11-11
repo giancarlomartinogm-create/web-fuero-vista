@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Marco editorial animado en el perímetro">
+<style>
+.frame{fill:none;stroke:#142B45;stroke-width:1;opacity:.20}.fine{fill:none;stroke:#142B45;stroke-width:1;opacity:.10}.copper{fill:none;stroke:#C78355;stroke-width:4;stroke-dasharray:80 1200;animation:perimeter 12s linear infinite}.corner{fill:#C78355;opacity:.65;animation:glow 4s ease-in-out infinite alternate}@keyframes perimeter{to{stroke-dashoffset:-1280}}@keyframes glow{from{opacity:.25}to{opacity:.75}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<path class="frame" d="M42 150V42H295M1145 42H1398V150M1398 750V858H1145M295 858H42V750"/>
+<path class="fine" d="M68 235V78H290M1150 78H1372V235M1372 665V822H1150M290 822H68V665"/>
+<path class="fine" d="M125 42V78M200 42V78M275 42V78M1165 42V78M1240 42V78M1315 42V78M125 822V858M200 822V858M275 822V858M1165 822V858M1240 822V858M1315 822V858"/>
+<path class="copper" d="M0 42H295M1145 42H1440"/><path class="copper" d="M1440 858H1145M295 858H0"/>
+<rect class="corner" x="36" y="36" width="12" height="12"/><rect class="corner" x="1392" y="852" width="12" height="12"/>
+</svg>

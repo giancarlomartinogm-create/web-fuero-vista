@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cuéntanos tu proyecto · Fuero de Serie</title>
+<meta name="description" content="Conversemos sobre tu marca, sitio web, agente de IA o solución digital. Cuéntanos qué necesitas crear, mejorar o conectar.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F8F6F2">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CL">
+<meta property="og:site_name" content="Fuero de Serie">
+<meta property="og:title" content="Cuéntanos tu proyecto · Fuero de Serie">
+<meta property="og:description" content="Conversemos sobre tu marca, sitio web, agente de IA o solución digital. Cuéntanos qué necesitas crear, mejorar o conectar.">
+<link rel="icon" href="../recursos/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../recursos/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../recursos/favicon_180.png">
+<link rel="preload" href="../recursos/fuentes/Montserrat-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../recursos/estilos.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Fuero de Serie","description":"Diseñamos marcas y sitios web, desarrollamos agentes de IA y automatizamos procesos para empresas y profesionales. Con especial foco en estudios jurídicos.","founder":{"@type":"Person","name":"Luca Martino Acevedo","jobTitle":"Abogado y desarrollador"},"areaServed":"CL"}</script>
+</head>
+<body>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<canvas id="escena" aria-hidden="true"></canvas>
+<header class="cabecera">
+  <div class="marco">
+    <a class="logo" href="../" aria-label="Fuero de Serie · Inicio"><img src="../recursos/logo/fuero_horizontal_sin_descriptor_color.svg" alt="Fuero de Serie" width="235" height="34"></a>
+    <button class="menu-boton" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <ul><li><a href="../servicios/">Servicios</a></li><li><a href="../ia-y-automatizaciones/">IA y automatizaciones</a></li><li><a href="../estudios-juridicos/">Estudios jurídicos</a></li><li><a href="../sobre-fuero-de-serie/">Sobre Fuero de Serie</a></li><li><a class="boton" href="../contacto/" aria-current="page">Contacto</a></li></ul>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+
+  <section class="seccion escenario hero" data-escena="resolver" aria-labelledby="h1" style="align-items:flex-start">
+    <div class="marco"><div class="texto" style="max-width:40rem">
+      <p class="antetitulo">Contacto</p>
+      <h1 id="h1" data-palabras style="font-size:clamp(2rem,4.4vw,3.6rem)">Cuéntanos qué necesitas crear, mejorar o conectar.</h1>
+      <p class="entrada aparece" style="--d:.4s">Describe brevemente tu proyecto, el punto en que estás y cualquier condición relevante para revisarlo. Si tienes una web o una referencia pública, puedes incluir el enlace.</p>
+      <form id="form-contacto" class="tarjeta formulario aparece" style="--d:.5s;margin-top:32px" novalidate>
+        <div class="campo"><label for="nombre">Nombre</label><input id="nombre" name="nombre" autocomplete="name" required placeholder="¿Cómo te llamas?"><span class="error" id="nombre-error" aria-live="polite"></span></div>
+        <div class="campo"><label for="correo">Correo</label><input id="correo" name="correo" type="email" autocomplete="email" required placeholder="¿A qué correo podemos responderte?"><span class="error" id="correo-error" aria-live="polite"></span></div>
+        <div class="campo"><label for="empresa">Empresa o estudio <span class="opcional">(opcional)</span></label><input id="empresa" name="empresa" autocomplete="organization" placeholder="Nombre de tu organización, si corresponde."></div>
+        <div class="campo"><label for="web">Sitio web <span class="opcional">(opcional)</span></label><input id="web" name="web" type="url" inputmode="url" placeholder="Enlace, si ya tienes uno."></div>
+        <div class="campo ancho"><label for="servicio">Servicio</label>
+          <select id="servicio" name="servicio" required>
+            <option value="">Elige una opción</option>
+            <option data-clave="marca">Marca y comunicación</option><option data-clave="web">Sitio web y posicionamiento</option><option data-clave="ia">IA y automatización</option><option data-clave="producto">Producto digital</option><option data-clave="datos">Datos y reportes</option><option data-clave="seguridad">Seguridad digital</option><option data-clave="orientacion">Necesito orientación</option>
+          </select><span class="error" id="servicio-error" aria-live="polite"></span></div>
+        <div class="campo ancho"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" required placeholder="¿Qué necesitas resolver y qué existe hoy?"></textarea><span class="error" id="mensaje-error" aria-live="polite"></span></div>
+        <p class="ayuda">Para esta primera conversación, basta una descripción general. Evita adjuntar credenciales, antecedentes de casos o información confidencial.</p>
+        <p class="aviso" tabindex="-1" hidden role="status">El envío de consultas se habilitará pronto. Por ahora tu mensaje no se ha enviado.</p>
+        <div class="ancho"><button class="boton" type="submit">Enviar consulta</button></div>
+      </form>
+    </div></div>
+  </section>
+</main>
+<footer class="pie">
+  <div class="marco">
+    <div class="rejilla">
+      <div>
+        <img src="../recursos/logo/fuero_vertical_inverso.svg" alt="Fuero de Serie · Diseño y tecnología" width="125" height="100">
+        <p style="max-width:30em">Marcas, webs, agentes de IA y soluciones digitales para empresas y profesionales. Con especial foco en el sector legal.</p>
+      </div>
+      <div><h2>Navegación</h2><ul><li><a href=".././">Inicio</a></li><li><a href="../servicios/">Servicios</a></li><li><a href="../ia-y-automatizaciones/">IA y automatizaciones</a></li><li><a href="../estudios-juridicos/">Estudios jurídicos</a></li><li><a href="../sobre-fuero-de-serie/">Sobre Fuero de Serie</a></li><li><a href="../contacto/">Contacto</a></li></ul></div>
+      <div><h2>Contacto</h2><ul><li><a href="../contacto/">Hablemos de tu proyecto</a></li></ul></div>
+    </div>
+    <div class="base"><span>© 2026 Fuero de Serie · Diseño con criterio. Tecnología para trabajar.</span><button class="boton-movimiento" type="button" aria-pressed="false">Pausar movimiento</button></div>
+  </div>
+</footer>
+<script src="../recursos/app.js"></script>
+<script type="module" src="../recursos/escena.js"></script>
+</body>
+</html>
